@@ -12,6 +12,7 @@ const Resturant = () => {
     <>
 
     <MenuCard menuData={menudata} />
+    <p>rohit makwana</p>
       
     </>
   )
