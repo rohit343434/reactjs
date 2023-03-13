@@ -1,9 +1,17 @@
-import React from "react";
+import React, {useState,useEffect } from "react";
 import "./style.css";
 
 const UseEffect = () => {
   // const initialData = 15;
-  const [myNum, setMyNum] = React.useState(0);
+  const [myNum, setMyNum] = useState(0);
+
+  useEffect(()=>{
+
+    // console.log("hiii")
+    document.title= `Chats(${myNum})`;
+   
+  });   
+//   arraydependency =firsttime maj dekhau joia
 
  const  updatecount=()=>{
     setMyNum(myNum+1)
